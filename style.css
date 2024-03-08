@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #FFF;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+}
+ 
+header{
+  background: #19283B;
+  color: #FFf;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 30px 60px;
+}
+
+/*Navegación*/
+
+.nav-menu{
+    font-size: 17px;
+    align-items: center;
+    height: 20px;
+    background:#DA3842;
+}
+
+.nav-main ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 100px;
+}
+
+.nav-main ul li a:hover{
+  border-bottom: 2px solid #19283B;
+  
+}
+
+.nav-menu a{
+  color:#FFf;
+  text-decoration: none;
+}
+  
+ul{
+  list-style: none;
+}
+
+/*Slide*/
+.slide{
+  color: #FFf;
+  height: 550px;
+  font-size: 30px;
+  background: url(./images/Institucion/slide1.jpg) no-repeat center center/cover;
+  animation: animate 20s infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+@keyframes animate{
+  20%{
+    background: url(./images/Institucion/slide2.jpg) no-repeat center center/cover;
+  }
+
+  40%{
+    background: url(./images/Institucion/slide3.jpg) no-repeat center center/cover;
+  }
+
+  80%{
+    background: url(./images/Institucion/slide4.jpg) no-repeat center center/cover;
+  }
+}
+
+
+
+
+  

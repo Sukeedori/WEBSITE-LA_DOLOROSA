@@ -190,6 +190,31 @@ hr{
   border-radius: 10px;
 }
 
+/*Body*/
+.body{
+  padding: 0px 40px;
+}
+
+article{
+  background: rgba(218, 56, 66, 0.6);
+  margin: 10px;
+}
+
+section{
+  padding: 15px;
+}
+
+/*Footer*/
+Footer{
+  background: #19283B;
+  color: #FFf;
+  padding: 20px 55px;
+}
+
+
+
+/*----------------------Responsive-------------------------------------------------------*/
+
 @keyframes animate{
   20%{
     background: url(./images/Institucion/slide2.jpg) no-repeat center center/cover;
